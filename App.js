@@ -20,10 +20,10 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 });
 
 window.onscroll = function () {
-    myFunction();
+    Scrolling();
 };
 
-function myFunction() {
+function Scrolling() {
     var navbar = document.getElementById("nav");
     var sticky = navbar.offsetTop;
     if (window.pageYOffset >= sticky) {
